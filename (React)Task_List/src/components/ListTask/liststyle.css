@@ -1,65 +1,93 @@
-    .tasklist{
-        display: flex;
-        background-color: #20212C;
-        padding: 10px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        align-items: center;
-    }
-    
-    .tasktext{ 
-        flex: 1;
-        text-align: left;
-        font-size: 20px;
-        padding-left: 5px;
-        background-color:#383838;
-        color:#CCC; 
-        border-radius: 10px;
-    }
+.tasklist {
+  border: 1px solid #555;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
 
-    .taskedit{ 
-        flex: 1;
-        text-align: left;
-        font-size: 20px;
-        padding-left: 5px;
-        margin-left: 25px;
-        background-color: #CCC;
-        color:#383838; 
-        border-radius: 10px;
-    }
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
-    input[type="checkbox"]:checked + .tasktext {
-        text-decoration: line-through;
-    }
+.editInput {
+  border: 2px solid #000;
+  outline: 0;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex: 1;
+  border-radius: 15px;
+}
 
-    .checkbox{
-        width: 25px;
-        height: 25px;
-        cursor: pointer;
-        color: red;
-        font-size: 15px;
-        margin-left: 5px;
-        background-color: transparent;
-    }
+.modalH2 {
+  padding: 10px;
+  text-align: center;
+}
 
-    .deletebutton{
-        width: 25px;
-        height: 25px;
-        cursor: pointer;
-        font-size: 15px;
-        border-radius: 5px;
-        margin-left: 5px;
-        padding: 0px;
-        background-color: transparent;
-    }
+.modalButtons {
+  margin-right: 10px;
+}
 
-    .editbutton{
-        width: 25px;
-        height: 25px;
-        cursor: pointer;
-        font-size: 15px;
-        border-radius: 5px;
-        margin-left: 5px;
-        padding: 0px;
-        background-color: transparent;
-    }
+.buttonsDiv {
+  margin-left: auto;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.midDiv {
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.tasktext {
+  flex: 1;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 5px;
+  background-color: #383838;
+  color: #ccc;
+  border-radius: 10px;
+}
+
+input[type="checkbox"]:checked + .tasktext {
+  text-decoration: line-through;
+}
+
+.checkbox {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  color: red;
+  font-size: 15px;
+  margin-left: 5px;
+  background-color: transparent;
+}
+
+.deletebutton {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 0px;
+  background-color: transparent;
+}
+
+.editbutton {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 0px;
+  background-color: transparent;
+}
