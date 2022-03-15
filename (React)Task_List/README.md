@@ -1,14 +1,13 @@
-# Lista de Tarefas em React com LocalStorage
-
+# Task List in ReactJS with localstorage
 Projeto 
 
-## Hooks ReactJS utilizados no projeto
+## ReactJS hooks used in the project
 - [useState](https://pt-br.reactjs.org/docs/hooks-state.html)
 - [useRef](https://pt-br.reactjs.org/docs/hooks-reference.html#useref)
 - [useEffect](https://pt-br.reactjs.org/docs/hooks-effect.html)
 - [useContext](https://pt-br.reactjs.org/docs/hooks-reference.html#usecontext)
 
-## Pacotes NPM utilizados no projeto
+## NPM packages used in the project
 - [React Toastify](https://fkhadra.github.io/react-toastify/introduction)
 - [React Bootstrap](https://react-bootstrap.github.io)
 
